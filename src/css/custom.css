@@ -5,26 +5,99 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+/* ===========================
+   Light Theme (Default)
+   =========================== */
+
+   :root {
+    /* Primary Colors - Light blue-grey palette */
+    --ifm-color-primary: #6b8a94;
+    --ifm-color-primary-dark: #5f7d87;
+    --ifm-color-primary-darker: #59767f;
+    --ifm-color-primary-darkest: #496169;
+    --ifm-color-primary-light: #7797a1;
+    --ifm-color-primary-lighter: #7d9ea7;
+    --ifm-color-primary-lightest: #93b1ba;
+  
+    /* Background and Text Colors */
+    --ifm-background-color: #f8fafb;
+    --ifm-font-color-base: #2d3132;
+    --ifm-heading-color: #2d3132;
+  
+    /* Code Blocks */
+    --ifm-code-font-size: 95%;
+    --ifm-code-background: #e8eef1;
+    --docusaurus-highlighted-code-line-bg: rgba(107, 138, 148, 0.15);
+  
+    /* Links */
+    --ifm-link-color: #6b8a94;
+    --ifm-link-hover-color: #5f7d87;
+  
+    /* Navbar */
+    --ifm-navbar-background-color: #ffffff;
+    --ifm-navbar-shadow: 0 1px 2px 0 rgba(45, 49, 50, 0.05);
+  
+    /* Footer */
+    --ifm-footer-background-color: #f0f4f6;
+    --ifm-footer-color: #494f50;
+    --ifm-footer-link-color: #6b8a94;
+  
+    /* Sidebar */
+    --ifm-menu-color-background-active: rgba(107, 138, 148, 0.1);
+    --ifm-menu-color-background-hover: rgba(107, 138, 148, 0.05);
+  }
+  
+  /* ===========================
+     Dark Theme
+     =========================== */
+  
+  /* For readability concerns, you should choose a lighter palette in dark mode. */
+  
+  [data-theme="dark"] {
+    /* Primary Colors - Matches revion.js landing page */
+    --ifm-color-primary: #c6d6da;
+    --ifm-color-primary-dark: #b5c9ce;
+    --ifm-color-primary-darker: #aac1c7;
+    --ifm-color-primary-darkest: #8ea9b1;
+    --ifm-color-primary-light: #d7e3e6;
+    --ifm-color-primary-lighter: #dce7ea;
+    --ifm-color-primary-lightest: #e4e6e7;
+  
+    /* Background Colors - Matches landing page gradient */
+    --ifm-background-color: #2d3132;
+    --ifm-background-surface-color: #3a4041;
+    --ifm-font-color-base: #e4e6e7;
+    --ifm-heading-color: #e4e6e7;
+  
+    /* Code Blocks */
+    --ifm-code-background: #3a4041;
+    --docusaurus-highlighted-code-line-bg: rgba(198, 214, 218, 0.1);
+  
+    /* Links */
+    --ifm-link-color: #c6d6da;
+    --ifm-link-hover-color: #e4e6e7;
+  
+    /* Navbar */
+    --ifm-navbar-background-color: #1a1d1e;
+    --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  
+    /* Footer */
+    --ifm-footer-background-color: #1a1d1e;
+    --ifm-footer-color: #798386;
+    --ifm-footer-link-color: #c6d6da;
+  
+    /* Sidebar */
+    --ifm-menu-color: #c6d6da;
+    --ifm-menu-color-background-active: rgba(198, 214, 218, 0.15);
+    --ifm-menu-color-background-hover: rgba(198, 214, 218, 0.08);
+  
+    /* Borders */
+    --ifm-color-emphasis-300: #494f50;
+    --ifm-hr-border-color: #494f50;
+    --ifm-toc-border-color: #494f50;
+  
+    /* Cards and Containers */
+    --ifm-card-background-color: #3a4041;
+    --ifm-blockquote-color: #798386;
+  }
