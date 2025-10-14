@@ -142,16 +142,16 @@ export default function RevionJsLanding() {
           </p>
 
           <div className={styles['revion-cta-buttons']}>
-            <button
-              type="button"
+            <a
+              href="./docs/quick_start"
               className={`${styles['revion-btn']} ${styles['revion-btn-primary']}`}>
               Get Started
-            </button>
-            <button
-              type="button"
+            </a>
+            <a
+              href="./docs/introduction"
               className={`${styles['revion-btn']} ${styles['revion-btn-secondary']}`}>
               Documentation
-            </button>
+            </a>
           </div>
 
           <div className={styles['revion-features']}>
