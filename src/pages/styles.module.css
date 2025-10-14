@@ -1,0 +1,265 @@
+/* Base Container */
+.revion-container {
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #E4E6E7;
+  background: linear-gradient(135deg, #1a1d1e 0%, #2D3132 100%);
+  box-sizing: border-box;
+}
+
+.revion-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+/* Hero Section */
+.revion-hero {
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.revion-logo-container {
+  display: inline-block;
+  margin-bottom: 3rem;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.revion-logo {
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(0 10px 30px rgba(198, 214, 218, 0.15));
+}
+
+.revion-title {
+  margin-bottom: 1.5rem;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #E4E6E7 0%, #C6D6DA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.revion-subtitle {
+  max-width: 800px;
+  margin: 0 auto 3.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.375rem);
+  font-weight: 300;
+  line-height: 1.8;
+  color: #C6D6DA;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.revion-subtitle span {
+  position: relative;
+  font-weight: 500;
+  color: #E4E6E7;
+}
+
+.revion-subtitle span::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #C6D6DA, transparent);
+  opacity: 0.5;
+}
+
+/* Buttons */
+.revion-cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 8rem;
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.revion-btn {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.revion-btn-primary {
+  color: #2D3132;
+  background: linear-gradient(135deg, #C6D6DA 0%, #b5c9ce 100%);
+  box-shadow: 0 4px 20px rgba(198, 214, 218, 0.3);
+}
+
+.revion-btn-primary:hover {
+  background: linear-gradient(135deg, #d5e3e7 0%, #C6D6DA 100%);
+  box-shadow: 0 8px 30px rgba(198, 214, 218, 0.4);
+  transform: translateY(-2px);
+}
+
+.revion-btn-secondary {
+  color: #E4E6E7;
+  background: transparent;
+  border: 2px solid #798386;
+}
+
+.revion-btn-secondary:hover {
+  background: rgba(121, 131, 134, 0.1);
+  border-color: #C6D6DA;
+  box-shadow: 0 8px 30px rgba(198, 214, 218, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Features Grid */
+.revion-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.revion-feature-card {
+  position: relative;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #3A4041 0%, #2D3132 100%);
+  border: 1px solid #494F50;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.revion-feature-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.revion-feature-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.revion-feature-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.revion-feature-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.revion-feature-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(198, 214, 218, 0.08) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.revion-feature-card:hover {
+  border-color: #C6D6DA;
+  box-shadow: 0 20px 60px rgba(198, 214, 218, 0.15);
+  transform: translateY(-8px);
+}
+
+.revion-feature-card:hover::before {
+  opacity: 1;
+}
+
+.revion-feature-icon {
+  position: relative;
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2rem;
+  color: #C6D6DA;
+  transition: all 0.4s ease;
+}
+
+.revion-feature-card:hover .revion-feature-icon {
+  color: #E4E6E7;
+  transform: scale(1.15) rotate(5deg);
+}
+
+.revion-feature-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #E4E6E7;
+}
+
+.revion-feature-description {
+  position: relative;
+  z-index: 1;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #798386;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .revion-container {
+    padding: 1rem;
+  }
+
+  .revion-wrapper {
+    padding: 2rem 0;
+  }
+
+  .revion-hero {
+    margin-bottom: 4rem;
+  }
+
+  .revion-cta-buttons {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+
+  .revion-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .revion-feature-card {
+    padding: 2rem;
+  }
+
+  .revion-features {
+    gap: 1rem;
+  }
+}
