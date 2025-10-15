@@ -72,13 +72,14 @@ const config: Config = {
           label: 'Docs'
         },
         {
-          href: 'https://github.com/koyama0318/revion.js',
-          label: 'GitHub',
+          type: 'localeDropdown',
           position: 'right'
         },
         {
-          type: 'localeDropdown',
-          position: 'right'
+          href: 'https://github.com/koyama0318/revion.js',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository'
         }
       ]
     },
