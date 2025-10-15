@@ -194,7 +194,7 @@ handler.log()
 
 ### EventStore log
 
-```txt
+```json
 [
   {
     type: "initialized",

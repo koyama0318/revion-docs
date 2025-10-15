@@ -9,7 +9,7 @@ It aims to make these architectural patterns simple, type-safe, and practical fo
 - 🎯 **Simplicity First** — Minimal boilerplate and clear APIs keep your focus on domain logic
 - 🏗️ **Type-Safe Functional Programming** — Declarative, composable, and strongly typed with TypeScript
 - 🧪 **Effortless Testing** — Built-in tools for BDD-style, domain-focused testing
-- ⚡️ **Lightweight and Fast** — Zero heavy dependencies, ideal for production environments
+- ⚡️ **Lightweight and Fast** — Minimal setup, smooth development
 
 ## Core Responsibilities
 

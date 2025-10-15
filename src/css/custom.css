@@ -21,7 +21,7 @@
     --ifm-color-primary-lightest: #93b1ba;
   
     /* Background and Text Colors */
-    --ifm-background-color: #f8fafb;
+    --ifm-background-color: #fcfdfd;
     --ifm-font-color-base: #2d3132;
     --ifm-heading-color: #2d3132;
   
@@ -29,7 +29,7 @@
     --ifm-code-font-size: 95%;
     --ifm-code-background: #e8eef1;
     --docusaurus-highlighted-code-line-bg: rgba(107, 138, 148, 0.15);
-  
+    
     /* Links */
     --ifm-link-color: #6b8a94;
     --ifm-link-hover-color: #5f7d87;

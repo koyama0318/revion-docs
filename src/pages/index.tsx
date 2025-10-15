@@ -72,7 +72,7 @@ export default function RevionJsLanding() {
         </svg>
       ),
       title: 'Lightweight and Fast',
-      description: 'Zero heavy dependencies, ideal for production environments'
+      description: 'Minimal setup, smooth development'
     }
   ]
 
@@ -136,9 +136,9 @@ export default function RevionJsLanding() {
           <h1 className={styles['revion-title']}>revion.js</h1>
 
           <p className={styles['revion-subtitle']}>
-            A lightweight TypeScript framework for building systems based on
+            A lightweight TypeScript framework
             <br />
-            <span>CQRS</span> and <span>Event Sourcing</span>
+            for building with <span>CQRS</span> & <span>Event Sourcing</span>
           </p>
 
           <div className={styles['revion-cta-buttons']}>
