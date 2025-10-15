@@ -29,7 +29,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en']
+    locales: ['en', 'ja'],
+    localeConfigs: {
+      en: {
+        label: 'English'
+      },
+      ja: {
+        label: '日本語'
+      }
+    }
   },
 
   presets: [
@@ -66,6 +74,10 @@ const config: Config = {
         {
           href: 'https://github.com/koyama0318/revion.js',
           label: 'GitHub',
+          position: 'right'
+        },
+        {
+          type: 'localeDropdown',
           position: 'right'
         }
       ]
