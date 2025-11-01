@@ -1,7 +1,11 @@
-# Quick start
+---
+sidebar_position: 2
+---
+
+# Quick Start
 
 This page shows how to set up the simplest application with the **revion.js framework** and focuses on the primary APIs you will use.
-
+  
 The `revion-counter-app` template already includes the setup implemented in this tutorial.
 
 ## 1. Install

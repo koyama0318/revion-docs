@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 ## What is revion.js?
@@ -49,3 +53,11 @@ revion.js is especially well-suited for:
 ## Quick Example
 
 See the [Quick Start](./3_quick_start.md) guide for a complete working example.
+
+## はじめに
+
+revion.jsは、CQRS + Event Sourcingを実装する時に、開発者がビジネスロジックに集中できるように作られたフレームワークです。
+
+従来の実装では、アーキテクチャが複雑になったり、初期の開発コストが高くなったりする問題がありました。revion.jsでは、関数型プログラミングの考え方と宣言的なAPI設計で、これらの問題を解決しています。
+
+具体的には、面倒なセットアップ作業や大量のボイラープレートコード、テストの難しさといった開発の障害を取り除いて、開発者が本当に重要なドメインロジックの実装に集中できる環境を作っています。
