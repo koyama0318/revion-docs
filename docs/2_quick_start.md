@@ -247,10 +247,10 @@ You can focus on the essence of "expressing the domain with types and building d
 
 ### For those who want to organize CQRS/ES concepts
 
-→ [Guide / Concept](../3_guide/1_concept.md)  
+→ [Guide / Concept](/docs/concept)  
 Explains CQRS + Event Sourcing structure and architecture with diagrams.
 
 ### For those who want to build more practical applications
 
-→ [Guide / Tutorial](../3_guide/2_tutorial.md)  
+→ [Guide / Tutorial](/docs/tutorial)  
 Learn the overall design including EventBus and QueryBus using an inventory management domain as the subject.

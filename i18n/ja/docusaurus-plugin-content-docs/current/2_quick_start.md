@@ -247,10 +247,10 @@ revion.js は、CQRS + Event Sourcing を学ぶための最短のルートを提
 
 ### CQRS/ES の概念を整理したい方
 
-→ [Guide / Concept](../3_guide/1_concept.md)  
+→ [Guide / Concept](/docs/concept)  
 CQRS + Event Sourcing の構造とアーキテクチャを図解で解説します。
 
 ### より実践的なアプリケーションを構築したい方
 
-→ [Guide / Tutorial](../3_guide/2_tutorial.md)  
+→ [Guide / Tutorial](/docs/tutorial)  
 在庫管理ドメインを題材に、EventBus・QueryBus を含む全体設計を学びます。
